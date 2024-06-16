@@ -16,12 +16,12 @@ const Footer = () => {
                     <img src={user_icon} alt="" />
                     <input type="email" placeholder='Enter your email' />
                 </div>
-                <div className="footer-suscribe">
+                <div className="footer-subscribe">
                         Subscribe
                 </div>
             </div>
         </div>
-            <hr />
+            <hr className='line'/>
             <div className="footer-bottom">
                 <p className='footer-bottom-left'>&copy; 2024 Geethika Seewandi. All right reserved</p>
                 <div className="footer-bottom-right">

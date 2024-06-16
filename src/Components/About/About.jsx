@@ -1,15 +1,13 @@
 import React from 'react'
 import './About.css'
-import pattern from '../../assets/theme_pattern.svg'
 import profile_image from '../../assets/about_profile.jpeg'
 function About() {
   return (
     <div className='about' id='about'>
         <div className="about-title">
-            <h1>About me</h1>
-            <img src={pattern} alt="" />
+            <h1>About me</h1><hr />
         </div>
-        <div className="about-section">
+        <div className="about-sections">
             <div className="about-left">
                 <img src={profile_image} alt="" />
             </div>
@@ -39,12 +37,12 @@ function About() {
                 <h1>2+</h1>
                 <p>YEARS OF EXPERIENCE</p>
             </div>
-            <hr />
+            
             <div className="about-achievement">
                 <h1>55+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
-            <hr />
+            
             <div className="about-achievement">
                 <h1>15+</h1>
                 <p>HAPPY CLIENT</p>
