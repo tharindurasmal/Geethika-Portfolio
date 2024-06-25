@@ -13,7 +13,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "9d96e5dc-441e-4215-9b73-56e5ac86ec71");
+        formData.append("access_key", "f7c54076-6cc6-4be3-8348-5a394146e754");
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -56,9 +56,6 @@ const Contact = () => {
                         <img src={mail_icon} alt="" /><p><a href="mailto:geethikasew97@gmail.com">geethikasew97@gmail.com</a></p>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" /><p>+94772801487</p>
-                    </div>
-                    <div className="contact-detail">
                         <img src={location_icon} alt="" /><p>Ratnapura District, Sabaragamuwa Province, Sri Lanka</p>
                     </div>
                 
@@ -75,6 +72,7 @@ const Contact = () => {
             </form>
         </div>
     </div>
+    
   )
 }
 

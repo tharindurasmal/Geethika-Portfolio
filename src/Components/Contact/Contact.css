@@ -138,4 +138,8 @@
     .contact-right label {
         font-size: 14px
     }
+    .contact-submit {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
 }

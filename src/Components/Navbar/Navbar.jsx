@@ -5,7 +5,7 @@ import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
-
+import git_logo from '../../assets/github.svg'
 const Navbar = () => {
   
   const [menu,setMenu] = useState("home");
@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <img className='logo' src={logo} alt="" />
+        <a href="#"><img className='logo' src={logo} alt="" /></a>
         <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open"/>
         <ul ref={menuRef} className="nav-menu">
           <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
@@ -32,7 +32,7 @@ const Navbar = () => {
             <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline}/>:<></>}</li>
         </ul>
         <div className="nav-connect">
-          <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink>
+          <a href='https://github.com/Geethika1234-mano'><img src={git_logo} alt="" />Github Profile</a>
         </div>
     </div>
   )

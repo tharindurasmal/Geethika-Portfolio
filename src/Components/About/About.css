@@ -60,13 +60,19 @@
     font-weight: 500
 }
 
+.about-skill img{
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -6px;
+}
 .about-skill hr {
     outline: none;
     border: none;
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%)
+    background: linear-gradient(264deg,#7bec6c -5.09%,#0af50a 106.28%);
 }
 
 .about-achievements {
@@ -150,6 +156,6 @@
 
     .about-achievement p {
         text-align: center;
-        font-size: 12px
+        font-size: 10px
     }
 }

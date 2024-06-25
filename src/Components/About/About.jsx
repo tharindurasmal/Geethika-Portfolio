@@ -1,6 +1,10 @@
 import React from 'react'
 import './About.css'
 import profile_image from '../../assets/about_profile.jpeg'
+import java_logo from '../../assets/java.svg'
+import angular_logo from '../../assets/angular.svg'
+import python_logo from '../../assets/python.svg'
+import flutterio_logo from '../../assets/flutterio.svg'
 function About() {
   return (
     <div className='about' id='about'>
@@ -18,16 +22,16 @@ function About() {
                 </div>
                 <div className="about-skills">
                     <div className="about-skill">
-                        <p>Java</p><hr style={{width:"80%"}} />
+                        <p><img src={java_logo} alt="" /> Java</p><hr style={{width:"80%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Flutter</p><hr style={{width:"60%"}} />
+                        <p><img src={flutterio_logo} alt="" /> Flutter</p><hr style={{width:"60%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Angular</p><hr style={{width:"50%"}} />
+                        <p><img src={angular_logo} alt="" /> Angular</p><hr style={{width:"50%"}} />
                     </div>
                     <div className="about-skill">
-                        <p>Python</p><hr style={{width:"90%"}} />
+                        <p><img src={python_logo} alt="" /> Python</p><hr style={{width:"90%"}} />
                     </div>
                 </div>
             </div>

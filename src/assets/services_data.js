@@ -29,6 +29,7 @@ const Services_Data = [
         s_name:"Content writing",
         s_desc:"Web development is the process of building, programming..."
     },
+    
 ]
  
 export default Services_Data;

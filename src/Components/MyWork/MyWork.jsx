@@ -13,10 +13,6 @@ const MyWork = () => {
                 return <img key={index}src={Work.w_img}/>
             })}
         </div>
-        <div className="mywork-showmore">
-            <p>Show more</p>
-            <img src={arrow_icon} alt="" />
-        </div>
     </div>
   )
 }

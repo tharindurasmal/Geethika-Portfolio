@@ -34,29 +34,6 @@
     transition: .3s
 }
 
-.mywork-showmore {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border-radius: 50px;
-    border: 2px solid white;
-    padding: 20px 40px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    transition: .6s;
-    cursor: pointer
-}
-
-.mywork-showmore img {
-    width: 25px
-}
-
-.mywork-showmore:hover {
-    gap: 30px;
-    transition: .6s
-}
-
 @media (max-width: 768px) {
     .mywork {
         gap:50px;
